@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Ad</title>
+  </head>
+
+  <body>
+    <div style="text-align: center;">
+        <p style="font-size: 20px;"><b>Ad Details</b></p>
+        {% for item in data %}
+            <p>
+                <b> State : {{item.state}}</b>
+                <br/>
+                <b> text : {{item.text}}</b>
+                <br/>
+                <b> category : {{item.category}}</b>
+                <br/>
+                <img src="data:image/jpeg;base64,{{ item.address }}" alt="User Image">
+            </p>
+        {% endfor %}
+        <br/>
+        <a href="index.html">Back to Home page</a>
+    </div>   
+  </body>
+</html>
+

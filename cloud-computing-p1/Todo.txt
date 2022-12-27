@@ -1,0 +1,27 @@
+First part of the project{
+
+    refactor files and folders for the project --> done
+
+    Front for the project {
+        home page for add and see ads --> Done
+        result page for add ad --> Done
+        result page for details of the ad --> Done
+    }
+
+    back for the project{
+        Part1{
+            part 1, add ads --> Done
+            part 2, see ads --> Done
+        }
+    }
+
+}
+
+Second part of the project{
+
+    listen and receive id from RabbitMQ --> Done
+    get image from s3 --> Done
+    send image to tagger and get category and state --> Done (fix database sync!) --> Done
+    send email to user --> Done
+
+}
